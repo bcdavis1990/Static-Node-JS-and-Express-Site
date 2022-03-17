@@ -4,46 +4,46 @@
             "id":"0",
             "project_name":"Randon Quote Generator",
             "description":"Displays different quotes with the click of a button!",
-            "technologies":"HTML, CSS, JavaScript",
+            "technologies":["HTML", "CSS", "JavaScript"],
             "live_link":"https://bcdavis1990.github.io/randomQuoteGenerator/",
             "github_link":"https://github.com/bcdavis1990/randomQuoteGenerator",
-            "image_urls":""
+            "image_urls":["./images/First_Project_Landing_Fixed.JPG", "./images/First_Project_Display_Fixed.JPG", "./images/First_Project_Display2_Fixed.JPG"]
         },
         {
             "id":"1",
             "project_name":"Student Directory",
             "description":"Pulls data for different students and displays them 9 students per page",
-            "technologies":"HTML, CSS, JavaScript",
+            "technologies":["HTML", "CSS", "JavaScript"],
             "live_link":"https://bcdavis1990.github.io/Data_Paganation_Project/",
             "github_link":"https://github.com/bcdavis1990/Data_Paganation_Project",
-            "image_urls":""
+            "image_urls":["./images/Second_Project_Landing_Fixed.jpg", "./images/Second_Project_Display_Fixed.JPG", "./images/Second_Project_Display2_Fixed.JPG"]
         },
         {
             "id":"2",
             "project_name":"Interactive Form",
             "description":"Interactive form for a conference. Displays notifications if users data is entered incorrectly or left blank",
-            "technologies":"HTML, CSS, JavaScript",
+            "technologies":["HTML", "CSS", "JavaScript"],
             "live_link":"https://bcdavis1990.github.io/Interactive-Form/",
             "github_link":"https://github.com/bcdavis1990/Interactive-Form",
-            "image_urls":""
+            "image_urls":["./images/Third_Project_Landing_Fixed.JPG", "./images/Third_Project_Display_Fixed.JPG", "./images/Third_Project_Display2_Fixed.jpg", "./images/Third_Project_Display3_Fixed.jpg"]
         },
         {
             "id":"3",
             "project_name":"Phrase Hunter",
             "description":"App that requires user to guess a phrase. User only has 5 incorrect guesses before 'Game Over'",
-            "technologies":"HTML, CSS, JavaScript",
+            "technologies":["HTML", "CSS", "JavaScript"],
             "live_link":"https://bcdavis1990.github.io/OOJS_GameApp/",
             "github_link":"https://github.com/bcdavis1990/OOJS_GameApp",
-            "image_urls":""
+            "image_urls":["./images/Fourth_Project_Landing_Fixed.jpg", "./images/Fourth_Project_Display_fixed.JPG", "./images/Fourth_Project_Display2_fixed.JPG", "./images/Fourth_Project_Display3_fixed.jpg"]
         },
         {
             "id":"4",
             "project_name":"Public API App",
             "description":"Project that pulls information from people using an API. User can click on a person to access more data about them",
-            "technologies":"HTML, CSS, JavaScript",
+            "technologies":["HTML", "CSS", "JavaScript"],
             "live_link":"https://bcdavis1990.github.io/Public-API-App/",
             "github_link":"https://github.com/bcdavis1990/Public-API-App",
-            "image_urls":""
+            "image_urls": ["./images/Fifth_Project_Landing_Fixed.JPG", "./images/Fifth_Project_Display_fixed.JPG", "./images/Fifth_Project_Display2_fixed.JPG"]
         }
     ]
 }
