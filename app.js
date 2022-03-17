@@ -1,4 +1,5 @@
 const express = require("express");
+const req = require("express/lib/request");
 const data = require("./data.json");
 const app = express();
 const portListen = 3000;
@@ -26,7 +27,7 @@ app.get("/about", (req, res) => {
   res.render("about");
 });
 
-app.get("/project/:id", (req, res) => {
+app.get("/project/:id", (req, res, next) => {
   const id = req.params.id;
   const project = data.projects[id];
   if (project) {
@@ -43,14 +44,21 @@ app.get("/project/:id", (req, res) => {
  *404 Error Handler
  */
 app.use((req, res, next) => {
-  const err = new Error(`Oops! Looks like that page doesn't exist!`);
+  const err = new Error(
+    "Oops! Looks like that page doesn't exist! Please check you are using the correct URL!"
+  );
   err.status = 404;
   next(err);
 });
 /*
  * Global Error Handler
  */
-
+app.use((err, req, res) => {
+  err.message = err.message || "Looks like there was a server error!";
+  res.status(err.status || 500);
+  console.log(`Looks like you have encountered a ${err.status} error!`);
+  res.send(`Error Code: ${res.status} : ${err.message}`);
+});
 /*
  * Setting up the port - Port number can be changed in const variable at the top
  */
