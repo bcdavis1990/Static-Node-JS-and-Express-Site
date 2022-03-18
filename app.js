@@ -1,5 +1,4 @@
 const express = require("express");
-const req = require("express/lib/request");
 const data = require("./data.json");
 const app = express();
 const portListen = 3000;
