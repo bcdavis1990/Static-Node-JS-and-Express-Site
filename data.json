@@ -7,7 +7,7 @@
             "technologies":["HTML", "CSS", "JavaScript"],
             "live_link":"https://bcdavis1990.github.io/randomQuoteGenerator/",
             "github_link":"https://github.com/bcdavis1990/randomQuoteGenerator",
-            "image_urls":["/static/images/First_Project_Landing_Fixed.JPG", "/static/images/First_Project_Display_Fixed.JPG", "/static/images/First_Project_Display2_Fixed.JPG"]
+            "image_urls":["/static/images/first_project_landing_fixed.jpg", "/static/images/first_project_display_fixed.jpg", "/static/images/first_project_display2_fixed.jpg"]
         },
         {
             "id":"1",
@@ -16,7 +16,7 @@
             "technologies":["HTML", "CSS", "JavaScript"],
             "live_link":"https://bcdavis1990.github.io/Data_Paganation_Project/",
             "github_link":"https://github.com/bcdavis1990/Data_Paganation_Project",
-            "image_urls":["/static/images/Second_Project_Landing_Fixed.jpg", "/static/images/Second_Project_Display_Fixed.JPG", "/static/images/Second_Project_Display2_Fixed.JPG"]
+            "image_urls":["/static/images/second_project_landing_fixed.jpg", "/static/images/second_project_display_fixed.jpg", "/static/images/second_project_display2_fixed.jpg"]
         },
         {
             "id":"2",
@@ -25,7 +25,7 @@
             "technologies":["HTML", "CSS", "JavaScript"],
             "live_link":"https://bcdavis1990.github.io/Interactive-Form/",
             "github_link":"https://github.com/bcdavis1990/Interactive-Form",
-            "image_urls":["/static/images/Third_Project_Landing_Fixed.JPG", "/static/images/Third_Project_Display_Fixed.JPG", "/static/images/Third_Project_Display2_Fixed.jpg", "/static/images/Third_Project_Display3_Fixed.jpg"]
+            "image_urls":["/static/images/third_project_landing_fixed.jpg", "/static/images/third_project_display_fixed.jpg", "/static/images/third_project_display2_fixed.jpg", "/static/images/third_project_display3_fixed.jpg"]
         },
         {
             "id":"3",
@@ -34,7 +34,7 @@
             "technologies":["HTML", "CSS", "JavaScript"],
             "live_link":"https://bcdavis1990.github.io/OOJS_GameApp/",
             "github_link":"https://github.com/bcdavis1990/OOJS_GameApp",
-            "image_urls":["/static/images/Fourth_Project_Landing_Fixed.jpg", "/static/images/Fourth_Project_Display_fixed.JPG", "/static/images/Fourth_Project_Display2_fixed.JPG", "/static/images/Fourth_Project_Display3_fixed.jpg"]
+            "image_urls":["/static/images/fourth_project_landing_fixed.jpg", "/static/images/fourth_project_display_fixed.jpg", "/static/images/fourth_project_display2_fixed.jpg", "/static/images/fourth_project_display3_fixed.jpg"]
         },
         {
             "id":"4",
@@ -43,7 +43,7 @@
             "technologies":["HTML", "CSS", "JavaScript"],
             "live_link":"https://bcdavis1990.github.io/Public-API-App/",
             "github_link":"https://github.com/bcdavis1990/Public-API-App",
-            "image_urls": ["/static/images/Fifth_Project_Landing_Fixed.JPG", "/static/images/Fifth_Project_Display_fixed.JPG", "/static/images/Fifth_Project_Display2_fixed.JPG"]
+            "image_urls": ["/static/images/fifth_project_landing_fixed.JPG", "/static/images/fifth_project_display_fixed.jpg", "/static/images/fifth_project_display2_fixed.jpg"]
         }
     ]
 }
