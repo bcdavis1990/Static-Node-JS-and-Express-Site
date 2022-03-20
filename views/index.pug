@@ -19,7 +19,7 @@ block content
       
 
         .cell
-          a(href= `/project/${project.id}`, target='_blank')
-            img.thumbnail(src=`${project.image_urls[0]}`, alt=`${project.project_name}`, target='_blank')
+          a(href= `/project/${project.id}`)
+            img.thumbnail(src=`${project.image_urls[0]}`, alt=`${project.project_name}`)
             h5 #{project.project_name}
 
